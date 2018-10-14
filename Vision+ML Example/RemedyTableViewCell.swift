@@ -16,6 +16,8 @@ class RemedyTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        stepNo.layer.cornerRadius = 25/2
+        stepNo.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

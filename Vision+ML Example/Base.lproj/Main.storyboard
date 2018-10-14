@@ -202,20 +202,21 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="remedyCell" rowHeight="79" id="kI3-m1-Cim" customClass="RemedyTableViewCell" customModule="Vision_ML_Example" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="79"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kI3-m1-Cim" id="aXA-oC-3Ad">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kI3-m1-Cim" id="aXA-oC-3Ad">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="78.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ud-oV-4rm">
-                                                    <rect key="frame" x="58" y="6" width="303" height="66.5"/>
+                                                    <rect key="frame" x="46" y="6" width="315" height="64"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J4-e2-kb0">
-                                                    <rect key="frame" x="7" y="9" width="43" height="63.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J4-e2-kb0">
+                                                    <rect key="frame" x="7" y="26" width="25" height="25"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="43" id="zj2-7g-YrE"/>
+                                                        <constraint firstAttribute="height" constant="25" id="3UY-zp-y9t"/>
+                                                        <constraint firstAttribute="width" constant="25" id="sWk-qQ-li3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -223,12 +224,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="6J4-e2-kb0" firstAttribute="top" secondItem="aXA-oC-3Ad" secondAttribute="topMargin" constant="-2" id="8En-Rl-P5t"/>
-                                                <constraint firstItem="3Ud-oV-4rm" firstAttribute="leading" secondItem="6J4-e2-kb0" secondAttribute="trailing" constant="8" symbolic="YES" id="IZq-rx-MAJ"/>
+                                                <constraint firstItem="6J4-e2-kb0" firstAttribute="top" secondItem="aXA-oC-3Ad" secondAttribute="topMargin" constant="15" id="8En-Rl-P5t"/>
+                                                <constraint firstItem="3Ud-oV-4rm" firstAttribute="leading" secondItem="6J4-e2-kb0" secondAttribute="trailing" constant="14" id="IZq-rx-MAJ"/>
                                                 <constraint firstItem="6J4-e2-kb0" firstAttribute="leading" secondItem="aXA-oC-3Ad" secondAttribute="leadingMargin" constant="-8" id="Kmb-EZ-s9h"/>
                                                 <constraint firstItem="3Ud-oV-4rm" firstAttribute="top" secondItem="aXA-oC-3Ad" secondAttribute="topMargin" constant="-5" id="NUL-OR-GRJ"/>
-                                                <constraint firstItem="6J4-e2-kb0" firstAttribute="baseline" secondItem="3Ud-oV-4rm" secondAttribute="baseline" id="OQi-37-Yzc"/>
-                                                <constraint firstItem="3Ud-oV-4rm" firstAttribute="centerY" secondItem="aXA-oC-3Ad" secondAttribute="centerY" id="TBx-1B-dN7"/>
+                                                <constraint firstItem="6J4-e2-kb0" firstAttribute="baseline" secondItem="3Ud-oV-4rm" secondAttribute="baseline" constant="-19" id="OQi-37-Yzc"/>
+                                                <constraint firstItem="3Ud-oV-4rm" firstAttribute="centerY" secondItem="aXA-oC-3Ad" secondAttribute="centerY" constant="-2.25" id="TBx-1B-dN7"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="3Ud-oV-4rm" secondAttribute="trailing" constant="-1" id="hDb-YO-W1b"/>
                                             </constraints>
                                         </tableViewCellContentView>

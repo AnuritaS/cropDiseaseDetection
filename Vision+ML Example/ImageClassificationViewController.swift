@@ -52,6 +52,15 @@ class ImageClassificationViewController: UIViewController {
     }
 
     @IBAction func callHelp(_ sender: Any) {
+
+            if let phoneCallURL = URL(string: "tel://\(01242342992)") {
+                
+                let application:UIApplication = UIApplication.shared
+                if (application.canOpenURL(phoneCallURL)) {
+                    application.open(phoneCallURL, options: [:], completionHandler: nil)
+                }
+            }
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

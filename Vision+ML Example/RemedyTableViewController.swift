@@ -37,7 +37,16 @@ extension RemedyTableViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "remedyCell") as! RemedyTableViewCell
         cell.stepLabel.text = remedies[indexPath.row]
         cell.stepNo.text = "\(indexPath.row)"
-        
+        UIView.animate(withDuration: 2.0,
+                       delay: 1.0,
+                       options: UIViewAnimationOptions.curveEaseIn,
+                       animations: { () -> Void in
+                       cell.stepNo.backgroundColor = UIColor.green
+                        self.view.layoutIfNeeded()
+                       
+        }, completion: { (finished) -> Void in
+            // ....
+        })
         return cell
     }
     
