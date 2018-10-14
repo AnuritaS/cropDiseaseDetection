@@ -55,7 +55,7 @@ class ImageClassificationViewController: UIViewController {
 extension ImageClassificationViewController{
     
     func updateClassifications(for image: UIImage) {
-        classificationLabel.text = "Classifying..."
+        alertLabel.text = "Classifying..."
         
         let orientation = CGImagePropertyOrientation(image.imageOrientation)
         guard let ciImage = CIImage(image: image) else { fatalError("Unable to create \(CIImage.self) from \(image).") }
@@ -80,26 +80,43 @@ extension ImageClassificationViewController{
     func processClassifications(for request: VNRequest, error: Error?) {
         DispatchQueue.main.async {
             guard let results = request.results else {
-                self.classificationLabel.text = "Unable to classify image.\n\(error!.localizedDescription)"
+                self.alertLabel.text = "Unable to classify image.\n\(error!.localizedDescription)"
                 return
             }
             // The `results` will always be `VNClassificationObservation`s, as specified by the Core ML model in this project.
             let classifications = results as! [VNClassificationObservation]
         
             if classifications.isEmpty {
-                self.classificationLabel.text = "Nothing recognized."
+                self.alertLabel.text = "Nothing recognized."
             } else {
                 // Display top classifications ranked by confidence in the UI.
                 let topClassification = classifications.prefix(1)
                 let descriptions = topClassification.map { classification in
                     // Formats the classification for display; e.g. "(0.37) cliff, drop, drop-off".
-                    if classification.identifier == "0"{
-                     self.classificationLabel.text = "Scab:\n" 
-                    }
-                  
+                     return String(classification.identifier)
                 }
-            
+                self.alertLabel.text = "Your plant is infected with"
+                self.parseJson(descriptions[0])
                
+            }
+        }
+    }
+}
+
+extension ImageClassificationViewController{
+    
+    func parseJson(_ identifier: String){
+    if let path = Bundle.main.path(forResource: "remedies", ofType: "json") {
+        do {
+            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+            let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+            if let jsonResult = jsonResult as? Dictionary<String, Dictionary<String, AnyObject>>, let disease = jsonResult["\(identifier)"]{
+                // do stuff
+                self.classificationLabel.text = disease["name"] as? String
+                
+            }
+        } catch {
+            // handle error
             }
         }
     }
