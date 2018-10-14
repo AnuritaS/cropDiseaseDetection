@@ -16,6 +16,20 @@
 		DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB121726610007C7C0F /* cropDisease.mlmodel */; };
 		DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB72172B745007C7C0F /* PhotoViewController.swift */; };
 		DFF79DBA2172C2DF007C7C0F /* remedies.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DB92172C2DF007C7C0F /* remedies.json */; };
+		DFF79DCD2172CCF0007C7C0F /* remedies.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DBC2172CCF0007C7C0F /* remedies.json */; };
+		DFF79DCE2172CCF0007C7C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DBD2172CCF0007C7C0F /* LaunchScreen.storyboard */; };
+		DFF79DCF2172CCF0007C7C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DBF2172CCF0007C7C0F /* Main.storyboard */; };
+		DFF79DD02172CCF0007C7C0F /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DC12172CCF0007C7C0F /* ImageClassificationViewController.swift */; };
+		DFF79DD12172CCF0007C7C0F /* cropDisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DC22172CCF0007C7C0F /* cropDisease.mlmodel */; };
+		DFF79DD22172CCF0007C7C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DC42172CCF0007C7C0F /* Assets.xcassets */; };
+		DFF79DD42172CCF0007C7C0F /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DC72172CCF0007C7C0F /* MobileNet.mlmodel */; };
+		DFF79DD52172CCF0007C7C0F /* NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DC82172CCF0007C7C0F /* NOTICE.txt */; };
+		DFF79DD62172CCF0007C7C0F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DC92172CCF0007C7C0F /* LICENSE.txt */; };
+		DFF79DD72172CCF0007C7C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DCA2172CCF0007C7C0F /* AppDelegate.swift */; };
+		DFF79DD82172CCF0007C7C0F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DCB2172CCF0007C7C0F /* PhotoViewController.swift */; };
+		DFF79DD92172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DCC2172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		DFF79DDB2172CD22007C7C0F /* RemedyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */; };
+		DFF79DDD2172CDD6007C7C0F /* RemedyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +43,24 @@
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9558E70A9563BA000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		A9666960A9666AD000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFF79DB121726610007C7C0F /* cropDisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cropDisease.mlmodel; sourceTree = "<group>"; };
 		DFF79DB72172B745007C7C0F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		DFF79DB92172C2DF007C7C0F /* remedies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = remedies.json; path = "Vision+ML Example/remedies.json"; sourceTree = SOURCE_ROOT; };
+		DFF79DBC2172CCF0007C7C0F /* remedies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remedies.json; sourceTree = "<group>"; };
+		DFF79DBE2172CCF0007C7C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF79DC02172CCF0007C7C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF79DC12172CCF0007C7C0F /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		DFF79DC22172CCF0007C7C0F /* cropDisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cropDisease.mlmodel; sourceTree = "<group>"; };
+		DFF79DC42172CCF0007C7C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF79DC52172CCF0007C7C0F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF79DC72172CCF0007C7C0F /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		DFF79DC82172CCF0007C7C0F /* NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
+		DFF79DC92172CCF0007C7C0F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DFF79DCA2172CCF0007C7C0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFF79DCB2172CCF0007C7C0F /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		DFF79DCC2172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewCell.swift; sourceTree = "<group>"; };
+		DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +77,6 @@
 		11063F551EC0EECC0033EE6D = {
 			isa = PBXGroup;
 			children = (
-				C858E5CC1ECA99CC006C5CAA /* README.md */,
 				11063F601EC0EECC0033EE6D /* Vision+ML Example */,
 				11063F5F1EC0EECC0033EE6D /* Products */,
 				A9563AD0A9557D1000000001 /* Configuration */,
@@ -74,6 +101,9 @@
 				DFF79DB72172B745007C7C0F /* PhotoViewController.swift */,
 				DFF79DB92172C2DF007C7C0F /* remedies.json */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
+				DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */,
+				DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */,
+				DFF79DBB2172CCF0007C7C0F /* Vision+ML Example */,
 				DFF79DB121726610007C7C0F /* cropDisease.mlmodel */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
 			);
@@ -104,6 +134,42 @@
 				113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF79DBB2172CCF0007C7C0F /* Vision+ML Example */ = {
+			isa = PBXGroup;
+			children = (
+				DFF79DBC2172CCF0007C7C0F /* remedies.json */,
+				DFF79DBD2172CCF0007C7C0F /* LaunchScreen.storyboard */,
+				DFF79DBF2172CCF0007C7C0F /* Main.storyboard */,
+				DFF79DC12172CCF0007C7C0F /* ImageClassificationViewController.swift */,
+				DFF79DC22172CCF0007C7C0F /* cropDisease.mlmodel */,
+				DFF79DC32172CCF0007C7C0F /* Supporting Files */,
+				DFF79DC62172CCF0007C7C0F /* Model */,
+				DFF79DCA2172CCF0007C7C0F /* AppDelegate.swift */,
+				DFF79DCB2172CCF0007C7C0F /* PhotoViewController.swift */,
+				DFF79DCC2172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			name = "Vision+ML Example";
+			sourceTree = "<group>";
+		};
+		DFF79DC32172CCF0007C7C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF79DC42172CCF0007C7C0F /* Assets.xcassets */,
+				DFF79DC52172CCF0007C7C0F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF79DC62172CCF0007C7C0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFF79DC72172CCF0007C7C0F /* MobileNet.mlmodel */,
+				DFF79DC82172CCF0007C7C0F /* NOTICE.txt */,
+				DFF79DC92172CCF0007C7C0F /* LICENSE.txt */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +230,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF79DD62172CCF0007C7C0F /* LICENSE.txt in Resources */,
+				DFF79DD52172CCF0007C7C0F /* NOTICE.txt in Resources */,
+				DFF79DCF2172CCF0007C7C0F /* Main.storyboard in Resources */,
 				113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */,
 				11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */,
+				DFF79DCD2172CCF0007C7C0F /* remedies.json in Resources */,
+				DFF79DCE2172CCF0007C7C0F /* LaunchScreen.storyboard in Resources */,
 				DFF79DBA2172C2DF007C7C0F /* remedies.json in Resources */,
+				DFF79DD22172CCF0007C7C0F /* Assets.xcassets in Resources */,
 				11063F671EC0EECC0033EE6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,11 +250,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF79DD42172CCF0007C7C0F /* MobileNet.mlmodel in Sources */,
+				DFF79DDB2172CD22007C7C0F /* RemedyTableViewCell.swift in Sources */,
+				DFF79DDD2172CDD6007C7C0F /* RemedyTableViewController.swift in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
+				DFF79DD72172CCF0007C7C0F /* AppDelegate.swift in Sources */,
+				DFF79DD02172CCF0007C7C0F /* ImageClassificationViewController.swift in Sources */,
+				DFF79DD12172CCF0007C7C0F /* cropDisease.mlmodel in Sources */,
 				DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
 				DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */,
+				DFF79DD82172CCF0007C7C0F /* PhotoViewController.swift in Sources */,
+				DFF79DD92172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +284,22 @@
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		DFF79DBD2172CCF0007C7C0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF79DBE2172CCF0007C7C0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF79DBF2172CCF0007C7C0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF79DC02172CCF0007C7C0F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,7 +425,7 @@
 				DEVELOPMENT_TEAM = M9Y5D22U5C;
 				INFOPLIST_FILE = "Vision+ML Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anurita.Vision-ML-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-ML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -346,7 +442,7 @@
 				DEVELOPMENT_TEAM = M9Y5D22U5C;
 				INFOPLIST_FILE = "Vision+ML Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anurita.Vision-ML-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-ML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;

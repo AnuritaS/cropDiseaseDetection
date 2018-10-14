@@ -13,11 +13,14 @@ import ImageIO
 class ImageClassificationViewController: UIViewController {
     // MARK: - IBOutlets
     
+    @IBOutlet weak var infoView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     var image : UIImage!
     @IBOutlet weak var alertLabel: UILabel!
     @IBOutlet weak var classificationLabel: UILabel!
-    
+    @IBOutlet weak var remedyB: UIButton!
+    var remedies: [String]!
+    var remedyUrl: String!
     // MARK: - Image Classification
     override func viewDidLoad() {
         
@@ -45,9 +48,18 @@ class ImageClassificationViewController: UIViewController {
     }()
     
     @IBAction func showRemedies(_ sender: Any) {
+              performSegue(withIdentifier: "showRemedies", sender: self)
     }
 
     @IBAction func callHelp(_ sender: Any) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showRemedies" {
+            let controller = segue.destination as! RemedyTableViewController
+            controller.remedies = remedies
+            controller.imageUrl = remedyUrl
+        }
     }
 }
 
@@ -91,11 +103,20 @@ extension ImageClassificationViewController{
             } else {
                 // Display top classifications ranked by confidence in the UI.
                 let topClassification = classifications.prefix(1)
-                let descriptions = topClassification.map { classification in
+                let descriptions = topClassification.map { classification -> String in
                     // Formats the classification for display; e.g. "(0.37) cliff, drop, drop-off".
+                    if(classification.confidence < 0.3){
+                        self.remedyB.isEnabled = false
+                         self.alertLabel.text = "Not infected!"
+                        return ""
+                    }
+                    else{
+                         self.alertLabel.text = "Your plant is infected with"
+                     self.remedyB.isEnabled = true
                      return String(classification.identifier)
+                    }
                 }
-                self.alertLabel.text = "Your plant is infected with"
+               
                 self.parseJson(descriptions[0])
                
             }
@@ -113,11 +134,22 @@ extension ImageClassificationViewController{
             if let jsonResult = jsonResult as? Dictionary<String, Dictionary<String, AnyObject>>, let disease = jsonResult["\(identifier)"]{
                 // do stuff
                 self.classificationLabel.text = disease["name"] as? String
-                
+                self.remedies = disease["remedies"] as? [String]
+                self.remedyUrl = disease["url"] as? String
             }
         } catch {
             // handle error
+            print("Json parse error")
             }
         }
+    }
+    
+    func setupView(){
+        self.infoView.layer.shadowColor = UIColor.black.cgColor
+        self.infoView.layer.shadowRadius = 5
+        self.infoView.layer.shadowOpacity = 0.5
+        self.infoView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        self.infoView.layer.masksToBounds = false
+        //self.infoView.layer.cornerRadius = 10
     }
 }
