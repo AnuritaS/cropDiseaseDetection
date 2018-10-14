@@ -14,6 +14,8 @@
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
 		DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB121726610007C7C0F /* cropDisease.mlmodel */; };
+		DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB72172B745007C7C0F /* PhotoViewController.swift */; };
+		DFF79DBA2172C2DF007C7C0F /* document (5).json in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DB92172C2DF007C7C0F /* document (5).json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		A9666960A9666AD000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFF79DB121726610007C7C0F /* cropDisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cropDisease.mlmodel; sourceTree = "<group>"; };
+		DFF79DB72172B745007C7C0F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		DFF79DB92172C2DF007C7C0F /* document (5).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "document (5).json"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
+				DFF79DB72172B745007C7C0F /* PhotoViewController.swift */,
 			);
 			path = "Vision+ML Example";
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		C82A1C951F1809F5005996F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFF79DB92172C2DF007C7C0F /* document (5).json */,
 				11063F681EC0EECC0033EE6D /* Assets.xcassets */,
 				11063F6D1EC0EECC0033EE6D /* Info.plist */,
 				113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */,
@@ -160,6 +166,7 @@
 			files = (
 				113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */,
 				11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */,
+				DFF79DBA2172C2DF007C7C0F /* document (5).json in Resources */,
 				11063F671EC0EECC0033EE6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +182,7 @@
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
 				DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
+				DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
