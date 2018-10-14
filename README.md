@@ -1,4 +1,4 @@
-# Classifying Images with Vision and Core ML
+# Crop Disease Detection Using  Vision and Core ML
 
 Preprocess photos using the Vision framework and classify them with a Core ML model.
 
