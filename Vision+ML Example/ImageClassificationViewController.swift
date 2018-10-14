@@ -18,12 +18,13 @@ class ImageClassificationViewController: UIViewController {
     var image : UIImage!
     @IBOutlet weak var alertLabel: UILabel!
     @IBOutlet weak var classificationLabel: UILabel!
+    @IBOutlet weak var callB: UIButton!
     @IBOutlet weak var remedyB: UIButton!
     var remedies: [String]!
     var remedyUrl: String!
     // MARK: - Image Classification
     override func viewDidLoad() {
-        
+       self.setupView()
         imageView.image = image
         updateClassifications(for: image)
     }
@@ -144,7 +145,7 @@ extension ImageClassificationViewController{
                 // do stuff
                 self.classificationLabel.text = disease["name"] as? String
                 self.remedies = disease["remedies"] as? [String]
-                self.remedyUrl = disease["url"] as? String
+                self.remedyUrl = disease["URL"] as? String
             }
         } catch {
             // handle error
@@ -154,11 +155,19 @@ extension ImageClassificationViewController{
     }
     
     func setupView(){
-        self.infoView.layer.shadowColor = UIColor.black.cgColor
-        self.infoView.layer.shadowRadius = 5
-        self.infoView.layer.shadowOpacity = 0.5
-        self.infoView.layer.shadowOffset = CGSize(width: 2, height: 2)
-        self.infoView.layer.masksToBounds = false
-        //self.infoView.layer.cornerRadius = 10
+        remedyB.layer.cornerRadius = 5
+        remedyB.layer.borderWidth = 2
+        remedyB.layer.borderColor = UIColor.black.cgColor
+        remedyB.clipsToBounds = true
+        
+        callB.layer.cornerRadius = 5
+        callB.layer.borderWidth = 2
+        callB.layer.borderColor = UIColor.black.cgColor
+        callB.clipsToBounds = true
+        
+        self.infoView.layer.cornerRadius = 5
+        infoView.layer.borderColor = UIColor.black.cgColor
+        infoView.layer.borderWidth = 2
+        
     }
 }

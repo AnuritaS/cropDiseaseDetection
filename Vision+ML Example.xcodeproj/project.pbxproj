@@ -30,6 +30,7 @@
 		DFF79DD92172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DCC2172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		DFF79DDB2172CD22007C7C0F /* RemedyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */; };
 		DFF79DDD2172CDD6007C7C0F /* RemedyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */; };
+		DFF79DDF2173266B007C7C0F /* imageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDE2173266B007C7C0F /* imageDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		DFF79DCC2172CCF0007C7C0F /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewCell.swift; sourceTree = "<group>"; };
 		DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewController.swift; sourceTree = "<group>"; };
+		DFF79DDE2173266B007C7C0F /* imageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DFF79DBB2172CCF0007C7C0F /* Vision+ML Example */,
 				DFF79DB121726610007C7C0F /* cropDisease.mlmodel */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
+				DFF79DDE2173266B007C7C0F /* imageDownload.swift */,
 			);
 			path = "Vision+ML Example";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				DFF79DD42172CCF0007C7C0F /* MobileNet.mlmodel in Sources */,
 				DFF79DDB2172CD22007C7C0F /* RemedyTableViewCell.swift in Sources */,
 				DFF79DDD2172CDD6007C7C0F /* RemedyTableViewController.swift in Sources */,
+				DFF79DDF2173266B007C7C0F /* imageDownload.swift in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
 				DFF79DD72172CCF0007C7C0F /* AppDelegate.swift in Sources */,
