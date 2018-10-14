@@ -8,7 +8,7 @@ With the [Core ML](https://developer.apple.com/documentation/coreml) framework, 
 
 This sample app uses the open source MobileNet model, one of several [available classification models](https://developer.apple.com/machine-learning), to identify an image using 1000 classification categories as seen in the example screenshots below.
 
-![example screenshots of app identifying a potted plant, a fountain, and a bunch of bananas](Documentation/classifications.png)
+
 
 ## Getting Started
 
