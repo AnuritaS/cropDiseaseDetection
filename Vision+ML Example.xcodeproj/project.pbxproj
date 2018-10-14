@@ -13,7 +13,6 @@
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
-		DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB121726610007C7C0F /* cropDisease.mlmodel */; };
 		DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DB72172B745007C7C0F /* PhotoViewController.swift */; };
 		DFF79DBA2172C2DF007C7C0F /* remedies.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DB92172C2DF007C7C0F /* remedies.json */; };
 		DFF79DCD2172CCF0007C7C0F /* remedies.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF79DBC2172CCF0007C7C0F /* remedies.json */; };
@@ -31,6 +30,7 @@
 		DFF79DDB2172CD22007C7C0F /* RemedyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */; };
 		DFF79DDD2172CDD6007C7C0F /* RemedyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */; };
 		DFF79DDF2173266B007C7C0F /* imageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DDE2173266B007C7C0F /* imageDownload.swift */; };
+		DFF79DE121735300007C7C0F /* cropDisease2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFF79DE021735300007C7C0F /* cropDisease2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,6 @@
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9558E70A9563BA000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		A9666960A9666AD000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		DFF79DB121726610007C7C0F /* cropDisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cropDisease.mlmodel; sourceTree = "<group>"; };
 		DFF79DB72172B745007C7C0F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		DFF79DB92172C2DF007C7C0F /* remedies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = remedies.json; path = "Vision+ML Example/remedies.json"; sourceTree = SOURCE_ROOT; };
 		DFF79DBC2172CCF0007C7C0F /* remedies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remedies.json; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewCell.swift; sourceTree = "<group>"; };
 		DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewController.swift; sourceTree = "<group>"; };
 		DFF79DDE2173266B007C7C0F /* imageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownload.swift; sourceTree = "<group>"; };
+		DFF79DE021735300007C7C0F /* cropDisease2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cropDisease2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 				DFF79DDC2172CDD6007C7C0F /* RemedyTableViewController.swift */,
 				DFF79DDA2172CD22007C7C0F /* RemedyTableViewCell.swift */,
 				DFF79DBB2172CCF0007C7C0F /* Vision+ML Example */,
-				DFF79DB121726610007C7C0F /* cropDisease.mlmodel */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
 				DFF79DDE2173266B007C7C0F /* imageDownload.swift */,
 			);
@@ -142,6 +141,7 @@
 		DFF79DBB2172CCF0007C7C0F /* Vision+ML Example */ = {
 			isa = PBXGroup;
 			children = (
+				DFF79DE021735300007C7C0F /* cropDisease2.mlmodel */,
 				DFF79DBC2172CCF0007C7C0F /* remedies.json */,
 				DFF79DBD2172CCF0007C7C0F /* LaunchScreen.storyboard */,
 				DFF79DBF2172CCF0007C7C0F /* Main.storyboard */,
@@ -262,7 +262,7 @@
 				DFF79DD72172CCF0007C7C0F /* AppDelegate.swift in Sources */,
 				DFF79DD02172CCF0007C7C0F /* ImageClassificationViewController.swift in Sources */,
 				DFF79DD12172CCF0007C7C0F /* cropDisease.mlmodel in Sources */,
-				DFF79DB221726610007C7C0F /* cropDisease.mlmodel in Sources */,
+				DFF79DE121735300007C7C0F /* cropDisease2.mlmodel in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
 				DFF79DB82172B745007C7C0F /* PhotoViewController.swift in Sources */,
 				DFF79DD82172CCF0007C7C0F /* PhotoViewController.swift in Sources */,

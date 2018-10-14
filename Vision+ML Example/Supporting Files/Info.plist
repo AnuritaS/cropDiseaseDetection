@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationUsageDescription</key>
+	<string>Need location to track your area</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Need location to track your area</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>To call the agricultural officer for help.</string>
 	<key>CFBundleDevelopmentRegion</key>

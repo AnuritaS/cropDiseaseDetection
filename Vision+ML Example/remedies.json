@@ -13,6 +13,17 @@
     ],
     "URL" : "https://media.tractorsupply.com/is/image/TractorSupplyCompany/1109035?$456$"
   },
+  "1" : {
+      "name": "Rot",
+      "remedies":[
+          "Tree root diseases are best controlled by prevention. If you are considering planting new trees, choose disease-resistant varieties or cultivars, only plant in well-drained soil, and avoid overwatering. You can also create irrigation moats to keep the water from pooling against tree trunks",
+          "Moderately affected trees can sometimes be saved early on by pruning out the infected roots. Always be sure to disinfect any tools you work with before using them again. If a tree is significantly infected, the best way to control it from spreading the disease to healthier trees is to remove it entirely.",
+          "The most accurate way to diagnose this decaying disease is to dig below ground to see if decaying is taking place. A good tool for this is a Pulaski because it is two sided—one side is for chopping and the other for digging or scraping. A great deal of care should be taken when doing this so as not to cause further harm to the tree.",
+          "Chemicals, such as chloropicrin or methyl bromide, won’t completely cure the disease but can reduce the level of the infection. These fumigants are applied in and around the base of the infected trees or in holes left after trees have been removed."
+          
+      ],
+      "URL" : "https://www.planetnatural.com/wp-content/uploads/2013/03/serenade-disease-control.jpg"
+  },
   "2" : {
     "name": "Rust",
     "remedies": [
@@ -20,7 +31,7 @@
       "Clean away all debris in between plants to prevent rust from spreading.",
       "Avoid splashing water onto the leaves, as this can help spread rust"
       ],
-      "URL" : ""
+      "URL" : "https://www.planetnatural.com/wp-content/uploads/2013/03/liquid-copper-concentrate.jpg"
   },
   "3" : {
     "name": "Mold",
@@ -33,12 +44,12 @@
       "URL": "https://images.homedepot-static.com/productImages/9e28bcf0-3cf0-4919-9d9c-9636cbc30561/svn/dr-earth-organic-lawn-disease-control-1023x-64_1000.jpg"
   },
   "4" : {
-  "name":"Rot",
+  "name":"Scorch",
   "remedies":[
-    "Tree root diseases are best controlled by prevention. If you are considering planting new trees, choose disease-resistant varieties or cultivars, only plant in well-drained soil, and avoid overwatering. You can also create irrigation moats to keep the water from pooling against tree trunks",
-    "Moderately affected trees can sometimes be saved early on by pruning out the infected roots. Always be sure to disinfect any tools you work with before using them again. If a tree is significantly infected, the best way to control it from spreading the disease to healthier trees is to remove it entirely.",
-    "The most accurate way to diagnose this decaying disease is to dig below ground to see if decaying is taking place. A good tool for this is a Pulaski because it is two sided—one side is for chopping and the other for digging or scraping. A great deal of care should be taken when doing this so as not to cause further harm to the tree.",
-    "Chemicals, such as chloropicrin or methyl bromide, won’t completely cure the disease but can reduce the level of the infection. These fumigants are applied in and around the base of the infected trees or in holes left after trees have been removed."
+    "Water when needed and maintain plant vigor",
+    "Fertilize",
+    "Mulch.",
+    "Screens may be used to protect trees and plants in areas exposed to wind and sun, but it is best not to plant tender plants in these exposures."
   
   ],
   "URL": ""
@@ -57,6 +68,15 @@
   
   "URL": "https://www.ppsthane.com/wp-content/uploads/2017/11/Home-Air-purifier.jpg"
   },
+  "6" :{
+      "name" : "Bacteria",
+      "remedies" :["SOn ornamental plants, remove the affected leaves at the first sign to prevent the bacteria from jumping onto adjacent leaves.",
+          "Remove old vegetable debris in the garden and do not plant new crops where host plants were once growing.",
+          "There are no recognized chemical treatments for bacterial leaf spot disease. Your best bet is prevention and mechanical control at the first sign of symptoms of bacterial leaf spot."
+          
+      ],
+      "URL" : ""
+  },
   "7" : {
     "name": "Blight",
     "remedies":["Plant resistant cultivars when available.",
@@ -70,25 +90,14 @@
     "URL" : "https://www.planetnatural.com/wp-content/uploads/2013/03/plant-doctor-363x400.jpg"
   },
   "8": {
-    "name" : "Late Spot",
+    "name" : "Early Spotting",
     "remedies" :["Spraying with a baking soda solution (a tablespoon of baking soda, 2 1/2 tablespoons of vegetable oil, a teaspoon of liquid soap, not detergent, to one gallon of water), or neem oil (do not use when pollinating insects including bees or other beneficial insects are present). Baking soda may burn some plant leaves. Spray only a few and then check for a reaction before applying applications every two weeks.",
     "Apply sulfur sprays or copper-based fungicides weekly at first sign of disease to prevent its spread. These organic fungicides will not kill leaf spot, but prevent the spores from germinating.",
     "Safely treat most fungal and bacterial diseases with SERENADE Garden. This broad spectrum bio-fungicide uses a patented strain of Bacillus subtilis that is registered for organic use. Best of all, SERENADE is completely non-toxic to honey bees and beneficial insects.",
     "Containing copper and pyrethrins, Bonide® Garden Dust is a safe, one-step control for many insect attacks and fungal problems. For best results, cover both the tops and undersides of leaves with a thin uniform film or dust. Depending on foliage density, 10 oz will cover 625 sq ft. Repeat applications every 7-10 days, as needed."
     ],
     "URL" : "https://www.planetnatural.com/wp-content/uploads/2013/03/liquid-copper-spray.jpg"
-  },
-  
-  "9" :{
-    "name" : "Late Spotting",
-    "remedies" :["Spraying with a baking soda solution (a tablespoon of baking soda, 2 1/2 tablespoons of vegetable oil, a teaspoon of liquid soap, not detergent, to one gallon of water) or neem oil (do not use when pollinating insects including bees or other beneficial insects are present). Baking soda may burn some plant leaves. Spray only a few and then check for a reaction before applying applications every two weeks.",
-    "Apply sulfur sprays or copper-based fungicides weekly at first sign of disease to prevent its spread. These organic fungicides will not kill leaf spot, but prevent the spores from germinating.",
-    "Safely treat most fungal and bacterial diseases with SERENADE Garden. This broad spectrum bio-fungicide uses a patented strain of Bacillus subtilis that is registered for organic use. Best of all, SERENADE is completely non-toxic to honey bees and beneficial insects.",
-    "Containing copper and pyrethrins, Bonide® Garden Dust is a safe, one-step control for many insect attacks and fungal problems. For best results, cover both the tops and undersides of leaves with a thin uniform film or dust. Depending on foliage density, 10 oz will cover 625 sq ft. Repeat applications every 7-10 days, as needed."
-    
-    ],
-    "URL" : "https://www.planetnatural.com/wp-content/uploads/2013/03/liquid-copper-spray.jpg"
   }
-  
-  
-  }
+}
+
+
